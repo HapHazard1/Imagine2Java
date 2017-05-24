@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.class
+NotNeeded/CCORE.C.orig
+NotNeeded/ImJavaWork.java
+NotNeeded/ImWork.java
+NotNeeded/resource.h
+NotNeeded/Textures.txt
+*.obj
+ReleaseC/Im2Java.exp
+NotNeeded/STDAFX.H
+ReleaseC/Im2Java.lib
+ReleaseC/Im2Java.res
+ReleaseC/Im2Java.itx
+ReleaseC/TestAtts.iob

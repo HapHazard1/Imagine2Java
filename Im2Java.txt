@@ -1,0 +1,13 @@
+Imagine to Java
+Type: Interface.
+
+This texture is an interface between Imagine and a Java Virtual Machine.  The texture will start a Java VM when the texture is loaded.  A Java method in the ImJavaWork class located in the Im2Java directory will be called passing the texture information into the method everytime a ray hit occurs.  After the Java method completes execution, it will return the modified texture information to Imagine.  A class called ImWork in the IM2Java directory must be created.  There must be a public function in the ImWork class called doWork with a return type of void.
+
+REQUESTER TABS:
+
+Params:
+These are the user parameters that can be specified at texture application time and saved with the object.
+Since a Java method can use these for any conceivable purpose, they are only sixteen entries for generic
+paramters without any description of the function of the parameters.
+
+
